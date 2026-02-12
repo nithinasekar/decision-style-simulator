@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>OK Decision-Making Style Simulator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>🧠 OK Decision-Making Style Simulator</h1>
+    <p class="subtitle">Discover Your Decision Intelligence Pattern</p>
+
+    <div id="quiz-container">
+      <h2 id="question"></h2>
+      <div id="options"></div>
+      <button id="next-btn" disabled>Next</button>
+    </div>
+
+    <div id="result-container" class="hidden">
+      <h2>Your Decision Style:</h2>
+      <p id="result-title"></p>
+      <p id="result-description"></p>
+      <button onclick="restartQuiz()">Restart</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
